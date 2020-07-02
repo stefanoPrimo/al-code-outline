@@ -1,5 +1,28 @@
 # Change Log
 
+## 2.0.3
+ - app.json editor
+ - RuleSet editor
+ - AppSourceCop.json editor
+ - Issue #133 - Documentation comment does not add <returns> for named return value
+ - Issue #134 - "Show All Project Symbols" does not show "Base Application" and "System Application" objects if app uses the "application" property to declare these dependencies
+ - Issue #135 - Sort Properties crashes document under specific circumstances
+
+ Thank you Arend-Jan Kauffmann for the idea of app.json editor, rvanbekkum for reporting issues #133 and 134 and DavidFeldhoff for reporting issue #135
+
+## 2.0.2
+ - Get full syntax tree api bugfix
+
+## 2.0.1
+ - Default field tooltip demplate updated
+ - "Add ToolTips to the Active Editor" screenshot added to the documentation 
+
+## 2.0.0
+ - New version of the language server with .net core and Mac support
+ - "Add ToolTips to the Active Editor" and "Add ToolTips to the Active Project" commands by StefanoPrimo
+
+  Thank you StefanoPrimo for your contribution
+
 ## 1.0.49
  - Github issues #118 and #131 - Symbols not visible when using Microsoft AL Extension from Nav 2018
 
